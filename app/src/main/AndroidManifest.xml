@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.design">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".Lawyer1"></activity>
+        <activity android:name=".Lawyer2"></activity>
+        <activity android:name=".Lawyer3"></activity>
+        <activity android:name=".Lawyer4"></activity>
+        <activity android:name=".Lawyer5"></activity>
+        <activity android:name=".Lawyer6"></activity>
+        <activity android:name=".Rajesh"></activity>
+        <activity android:name=".Abhi"></activity>
+        <activity android:name=".Anandam"></activity>
+        <activity android:name=".Anu"></activity>
+        <activity android:name=".Gopal"></activity>
+        <activity android:name=".Harish"></activity>
+        <activity android:name=".Indu"></activity>
+        <activity android:name=".Jain"></activity>
+        <activity android:name=".Khurana"></activity>
+        <activity android:name=".Kk"></activity>
+        <activity android:name=".Mishi"></activity>
+        <activity android:name=".Mukul"></activity>
+        <activity android:name=".Nikkam"></activity>
+        <activity android:name=".Pathak"></activity>
+        <activity android:name=".Pavan"></activity>
+        <activity android:name=".Shahid"></activity>
+        <activity android:name=".Soli"></activity>
+        <activity android:name=".Sun"></activity>
+        <activity android:name=".Appointment"></activity>
+        <activity android:name=".VerifyPhoneActivity"></activity>
+        <activity android:name=".MActivity"></activity>
+
+
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,13 @@
+<resources>
+
+<string name="app_name">F.Y.L</string>
+<string name="country_prompt">Choose a location</string>
+    <string name="action_settings">Settings</string>
+
+<string-array name="country_arrays">
+    <item>Durg</item>
+    <item>Raipur</item>
+    <item>Bhilai</item>
+</string-array>
+
+</resources>
