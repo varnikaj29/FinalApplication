@@ -32,7 +32,6 @@ public class VerifyPhoneActivity extends AppCompatActivity {
     //firebase auth object
     private FirebaseAuth mAuth;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,13 +41,11 @@ public class VerifyPhoneActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         editTextCode = findViewById(R.id.editTextCode);
 
-
         //getting mobile number from the previous activity
         //and sending the verification code to the number
         Intent intent = getIntent();
         String mobile = intent.getStringExtra("mobile");
         sendVerificationCode(mobile);
-
 
         //if the automatic sms detection did not work, user can also enter the code manually
         //so adding a click listener to the button
@@ -80,7 +77,6 @@ public class VerifyPhoneActivity extends AppCompatActivity {
                 TaskExecutors.MAIN_THREAD,
                 mCallbacks);
     }
-
 
     //the callback to detect the verification status
     private PhoneAuthProvider.OnVerificationStateChangedCallbacks mCallbacks = new PhoneAuthProvider.OnVerificationStateChangedCallbacks() {
